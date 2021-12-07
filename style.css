@@ -195,6 +195,16 @@ header{
   padding: .5rem 1rem;
 }
 
+/* solucao para single e page */
+.header2-active{
+  background: var(--blue);
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+  padding: .5rem 1rem;
+}
+
 .header-active a {
   color: var(--white);
 }
@@ -262,7 +272,7 @@ header .fa-times{
 }
 
 .home {
-  background-image: url('../images/home-bg.jpg');
+  background-image: url('https://todayhost.com.br/site/joyjetproject/wp-content/themes/joyjet-wordpress/assets/images/home-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -317,6 +327,10 @@ header .fa-times{
   border-left: none !important;
   font-size: 1.25rem;
   text-shadow: 0 0 black;
+}
+
+#trending-line a {
+  color: var(--white);
 }
 
 #posts-carousel {
@@ -423,6 +437,10 @@ header .fa-times{
   font-size: 0.6875rem;
   color: var(--mediumgray);
   padding: 0;
+}
+
+.contentpage {
+  margin-top: 150px !important;
 }
 
 /*

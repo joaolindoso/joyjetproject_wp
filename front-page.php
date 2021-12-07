@@ -66,8 +66,8 @@
                     <div class="item-box-blog-body">
                         <!--Heading-->
                         <div class="item-box-blog-heading">
-                            <a href="#" tabindex="0">
-                            <h3><?php the_title(); ?></h3>
+                            <a href="<?php the_permalink(); ?>">
+                                <h3><?php the_title(); ?></h3>
                             </a>
                         </div>
                     
