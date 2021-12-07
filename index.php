@@ -46,7 +46,7 @@
 
 <!-- including carousel - section 2 -->
 <section id="carousel-posts">
-    <div class="container mt-5 pt-5">
+    <div class="container mt-2 mt-md-5 pt-md-5">
         <div class="owl-carousel owl-theme row">
 
         <?php 
